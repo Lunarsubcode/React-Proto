@@ -5,15 +5,16 @@ import Layout from '../components/layout'
 import Image from '../components/image'
 
 const IndexPage = () => (
-  <Layout>
-    <h1>This is a React Prototype</h1>
-    <p>I'll figure this out</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+  <div>
+    <div className="Hero">
+      <div className="HeroGroup">
+      <h1>All you need for a 
+close, comfortable shave.</h1>
+      <p>It's time to reinvent your shave.</p>
+      <Link to="/page-2/">Get Stated</Link>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
